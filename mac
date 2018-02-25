@@ -164,7 +164,6 @@ brew unlink heroku
 brew link --force heroku
 
 fancy_echo "Installing RVM and bundler..."
-# install_asdf_language "ruby"
 
 curl -L https://get.rvm.io | bash -s stable --auto-dotfiles --autolibs=enable
 gem update --system
@@ -177,3 +176,6 @@ if [ -f "$HOME/.laptop.local" ]; then
   # shellcheck disable=SC1090
   . "$HOME/.laptop.local"
 fi
+
+# Oh My ZSH
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
