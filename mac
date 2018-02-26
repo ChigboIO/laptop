@@ -183,3 +183,7 @@ fi
 
 # Oh My ZSH
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Alias hub to git
+append_to_zshrc "# Alias Github's hub to git"
+append_to_zshrc 'eval "$(hub alias -s)"'
