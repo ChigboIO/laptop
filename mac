@@ -187,3 +187,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 # Alias hub to git
 append_to_zshrc "# Alias Github's hub to git"
 append_to_zshrc 'eval "$(hub alias -s)"'
+
+# Other Applications
+fancy_echo "Installing used applications"
+./brew_applications

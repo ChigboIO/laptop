@@ -1,0 +1,46 @@
+#!/bin/sh
+
+# Dev environments
+brew cask install iterm2
+brew cask install sublime-text
+brew cask install ngrok
+brew cask install docker
+
+# Browsers
+brew cask install google-chrome
+brew cask install firefox
+brew cask install postman
+
+# Media tools – Music and Video
+brew cask install spotify
+brew cask install deezer
+brew cask install vlc
+
+# Design and mock tools
+brew cask install sketch
+brew cask install zeplin
+brew cask install balsamiq-mockups
+
+# Chat and communication tools
+brew cask install slack
+brew cask install zoomus
+brew cask install teamviewer
+brew cask install skype
+brew cask install whatsapp
+
+# Essencials – Note and Learning tools
+brew cask install evernote
+brew cask install grammarly
+brew cask install skitch
+brew cask install kindle
+brew cask install adobe-acrobat-reader
+
+# Misc
+brew cask install qbittorrent
+
+
+# # OTHERS NOT IN HOMEBREW(-CASK)
+# trello – Appstore
+# pocket – Appstore
+# wonderlist
+# amphetamine – Appstore
