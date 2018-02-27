@@ -1,5 +1,7 @@
 #!/bin/sh
 
+fancy_echo "APPLICATIONS FROM BREW CASK"
+
 # Dev environments
 brew cask install iterm2
 brew cask install sublime-text
