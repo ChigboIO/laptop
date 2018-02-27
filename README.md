@@ -26,7 +26,7 @@ Install
 Download the script:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
+curl --remote-name-all https://raw.githubusercontent.com/ChigboIO/new-mac-setup/master/{mac,brew_applications}
 ```
 
 Review the script (avoid running scripts you haven't read!):
